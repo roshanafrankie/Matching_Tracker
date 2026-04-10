@@ -6,11 +6,11 @@ A comprehensive desktop application built with **Python** and **CustomTkinter** 
 
 ### 👤 User Management
 * **Secure Authentication:** Includes Login, Registration, and Password Reset frames with password hashing.
-* **Role Based Access:** Features a built in Admin mode for system-wide statistics and record management.
+* **Role-Based Access:** Features a built-in Admin mode for system-wide statistics and record management.
 * **Profile Customization:** Users can update personal details and upload profile photos.
 
 ### 📝 Interview Management
-* **Dynamic Sheets:** Supports project specific question sets for Aquatica, Green Leaders, Global Classroom, On The Map, and Rooted.
+* **Dynamic Sheets:** Supports project-specific question sets for Aquatica, Green Leaders, Global Classroom, On The Map, and Rooted.
 * **Media Integration:** Allows uploading candidate photos and attaching CVs (PDF/Word) directly to records.
 * **Database Persistence:** Automatically handles MySQL table creation and stores long-text interview summaries.
 
@@ -35,3 +35,8 @@ A comprehensive desktop application built with **Python** and **CustomTkinter** 
 The app connects to a MySQL database named `user_db` on `localhost`.
 1. Ensure MySQL is running.
 2. Tables (`users` and `interviews`) are created automatically on the first run.
+
+### 2. Clone the Repository
+```bash
+git clone https://github.com/roshanafrankie/Matching_Tracker.git
+cd Matching_Tracker

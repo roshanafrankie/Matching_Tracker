@@ -1,0 +1,8 @@
+customtkinter
+mysql-connector-python
+Pillow
+python-docx
+reportlab
+pypdf
+tkcalendar
+phonenumbers
